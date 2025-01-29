@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Text Counter",
+    "version": "1.0",
+    "description": "Count words and characters of selected text.",
+    "permissions": ["contextMenus", "activeTab", "tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "48": "icons/icon128.png",
+        "128": "icons/icon128.png"
+    }
+}
